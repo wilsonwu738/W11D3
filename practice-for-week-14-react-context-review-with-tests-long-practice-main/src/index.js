@@ -4,6 +4,10 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import CoffeeProvider from './context/CoffeeContext';
+// for testing purposes
+import { CoffeeContext } from './context/CoffeeContext';
+
+window.CoffeeContext = CoffeeContext;
 
 const Root = () => {
   return (
